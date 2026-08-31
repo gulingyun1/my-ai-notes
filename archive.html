@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>对话盛颖：全景深度解析与认知特刊 - 《硅谷101》深度全景精读</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Noto+Serif+SC:wght@400;600;700;900&display=swap');
+    .font-serif-sc { font-family: 'Noto Serif SC', serif; }
+    .font-sans-modern { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+  </style>
+</head>
+<body class="bg-[#0b0f19] text-slate-100 font-sans-modern antialiased selection:bg-rose-500 selection:text-white pb-32">
+
+  <!-- 顶部栏 -->
+  <header class="border-b border-slate-800/80 bg-slate-950/70 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-2.5 text-xs text-slate-400">
+        <span class="px-2.5 py-0.5 rounded-full bg-rose-500/10 text-rose-400 border border-rose-500/20 font-semibold">《硅谷101》深度全景精读 (Extended Archive)</span>
+        <span>•</span>
+        <span>对谈嘉宾：盛颖</span>
+      </div>
+      <a href="index.html" class="text-xs text-rose-400 hover:underline flex items-center gap-1 font-semibold">
+        ← 返回极简画报版 (index.html)
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 pt-12 space-y-16">
+
+    <!-- 01 人物封面与主旨 (Hero Editorial) -->
+    <section class="space-y-6 text-center max-w-3xl mx-auto">
+      <span class="text-xs font-bold uppercase tracking-widest text-rose-400">Featured Interview & Deep Dive · AI Infrastructure</span>
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight font-serif-sc">
+        以浪漫主义淬炼算力底座：<br>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-400 via-purple-300 to-indigo-400">
+          Infra 的美感、心流与下一代 AI
+        </span>
+      </h1>
+      <p class="text-slate-400 text-sm sm:text-base leading-relaxed">
+        从交大 ACM 班、斯坦福博士到主导 xAI Grok 推理团队，再到创办 RadixArk；盛颖用纯粹的数学直觉与对基础设施的执念，探索与强力 AI 共存的未来。
+      </p>
+
+      <!-- 核心标签矩阵 -->
+      <div class="flex flex-wrap justify-center gap-2 pt-2">
+        <span class="text-xs px-3 py-1 rounded-full bg-slate-800/80 text-slate-300 border border-slate-700">SGLang 发起人</span>
+        <span class="text-xs px-3 py-1 rounded-full bg-slate-800/80 text-slate-300 border border-slate-700">RadixArk 创始人</span>
+        <span class="text-xs px-3 py-1 rounded-full bg-slate-800/80 text-slate-300 border border-slate-700">xAI 前推理负责人</span>
+        <span class="text-xs px-3 py-1 rounded-full bg-slate-800/80 text-slate-300 border border-slate-700">LMSYS 核心成员</span>
+      </div>
+    </section>
+
+    <!-- 02 核心金句卡片 (Signature Quote) -->
+    <section class="p-8 sm:p-12 rounded-3xl bg-gradient-to-br from-slate-900 via-rose-950/20 to-slate-900 border border-rose-500/20 text-center font-serif-sc relative overflow-hidden shadow-2xl">
+      <i data-lucide="quote" class="w-8 h-8 text-rose-400/60 mx-auto mb-4"></i>
+      <p class="text-xl sm:text-2xl text-slate-200 font-normal leading-relaxed max-w-2xl mx-auto">
+        “世界上存在那么纯粹的导师、投资人与同行者。那些好东西都存在，你要相信到身边空无一人时还相信它，终有一天，那个跟你一样相信的人会与你相遇。”
+      </p>
+      <span class="block mt-4 text-xs font-sans text-rose-300 font-semibold tracking-wider uppercase">— 盛颖 · 关于坚持与理想主义</span>
+    </section>
+
+    <!-- 03 核心洞察卡片 (Bento Grid) —— 原汁原味保留并扩充细节 -->
+    <section class="space-y-4">
+      <div class="flex items-center gap-2">
+        <span class="w-6 h-6 rounded-lg bg-rose-600 text-white text-xs font-bold flex items-center justify-center">01</span>
+        <h2 class="text-xl font-bold text-white font-serif-sc">心智模型：顺应天性的高强度运转与觉醒</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
+          <div class="w-9 h-9 rounded-xl bg-rose-500/10 text-rose-400 flex items-center justify-center mb-3">
+            <i data-lucide="zap" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-white">ADHD 是使用说明书</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            不强行对抗短板，服从自己“非热爱不可为”的天性。只在极度吸引或高对抗性挑战中进入绝对心流，彻底实现自我和解。
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
+          <div class="w-9 h-9 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center mb-3">
+            <i data-lucide="book-open" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-white">学术三层区隔</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            发论文是熟练技能，做研究是普通职业，而极少数推动人类知识边界、缺其不可的人才被称为真正的科学家。
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-2">
+          <div class="w-9 h-9 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-3">
+            <i data-lucide="share-2" class="w-5 h-5"></i>
+          </div>
+          <h3 class="text-base font-bold text-white">开源如同呼吸</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            幼时在江西通过互联网无名者的帖子自学编程，被开放文化抚养长大，将无私分享与平权视为理所应当。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 新增：底层背景与心流觉醒横幅卡片 -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-3">
+        <div class="flex items-center gap-2 text-rose-400 font-bold text-sm">
+          <i data-lucide="compass" class="w-4 h-4"></i>
+          <span>从江西到纽约的文化冲击</span>
+        </div>
+        <p class="text-xs text-slate-400 leading-relaxed">
+          本科从江西到上海交大 ACM 班经历过强烈的文化冲击。赴哥大读硕士时，纽约包容的文化让她感受到“不需要被评判、也不需要评判别人”的绝对自由状态。在普林斯顿 workshop 期间，更体味到世俗浮华皆无意义、唯有数学真实的纯粹虚无。
+        </p>
+      </div>
+
+      <div class="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-3">
+        <div class="flex items-center gap-2 text-indigo-400 font-bold text-sm">
+          <i data-lucide="cpu" class="w-4 h-4"></i>
+          <span>Google 实习与大模型震撼</span>
+        </div>
+        <p class="text-xs text-slate-400 leading-relaxed">
+          2022 年在 Google 实习时，她敏锐地发现传统程序分析工具在强大的大模型面前显得分外无力。大模型直接生成的代码迅速覆盖了传统技术，这让她极为震撼并坚决跳入 AI 浪潮，最终在形式化验证之外找到了属于自己的算力战场。
+        </p>
+      </div>
+    </section>
+
+    <!-- 04 技术与工程哲学 (Deep Tech) —— 原汁原味保留并扩充 -->
+    <section class="space-y-4">
+      <div class="flex items-center gap-2">
+        <span class="w-6 h-6 rounded-lg bg-rose-600 text-white text-xs font-bold flex items-center justify-center">02</span>
+        <h2 class="text-xl font-bold text-white font-serif-sc">技术哲学：Infra 本身就是击中人性的产品</h2>
+      </div>
+
+      <div class="p-7 rounded-3xl bg-slate-900/70 border border-slate-800 space-y-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="space-y-2">
+            <div class="flex items-center gap-2 text-rose-400 font-bold text-sm">
+              <i data-lucide="sparkles" class="w-4 h-4"></i>
+              <span>拒绝豆腐渣工程，追求 Taste (品味)</span>
+            </div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Infra 不是单纯配合模型刷分的辅助支撑，它自身就是产品。优秀的 Infra 不仅要能跑通，更必须以优美、扎实、系统化的形态构建，绝不靠临时补丁凑合。
+            </p>
+          </div>
+
+          <div class="space-y-2">
+            <div class="flex items-center gap-2 text-sky-400 font-bold text-sm">
+              <i data-lucide="cpu" class="w-4 h-4"></i>
+              <span>SGLang 与 RadixAttention 创新</span>
+            </div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              针对多轮对话与 Agent 场景，利用 Radix 树对公共前缀建立索引与内存池，彻底避免 KV Cache 的重复计算，压榨出硅芯片的极限效率。
+            </p>
+          </div>
+        </div>
+
+        <!-- 补充 xAI 黄金岁月细节 -->
+        <div class="pt-4 border-t border-slate-800 space-y-2">
+          <div class="flex items-center gap-2 text-emerald-400 font-bold text-sm">
+            <i data-lucide="users" class="w-4 h-4"></i>
+            <span>xAI 黄金岁月的无边界工程师文化</span>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            在早期不到百人的 xAI（V1.0 阶段），完全没有办公室政治，Elon 建立了一种“没有边界、重工程师文化”的运作机制。团队成员极其纯粹、互助且懂感恩，高强度的撕裂成长在一年内完成了外部数年的沉淀。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 问答核心全景 (Editorial Dialogue) —— 完整保留并扩充至 5 个重磅问答 -->
+    <section class="space-y-4">
+      <div class="flex items-center gap-2">
+        <span class="w-6 h-6 rounded-lg bg-rose-600 text-white text-xs font-bold flex items-center justify-center">03</span>
+        <h2 class="text-xl font-bold text-white font-serif-sc">对谈焦点与时代追问</h2>
+      </div>
+
+      <div class="space-y-3 text-xs sm:text-sm">
+        <!-- Q1 -->
+        <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 space-y-2">
+          <div class="font-bold text-rose-300 flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-rose-500/20 text-xs">问</span>
+            为什么决定从 xAI 离开创立 RadixArk？
+          </div>
+          <div class="text-slate-300 pl-6 leading-relaxed">
+            <span class="text-slate-500 font-semibold">答：</span>
+            SGLang 社区爆发式增长带来了巨大交付压力，纯靠社区业余贡献已无法维系高质量发展。为了对社区和生态负责，必须建立全职商业实体承接需求。
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 space-y-2">
+          <div class="font-bold text-rose-300 flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-rose-500/20 text-xs">问</span>
+            RadixArk 的终极使命是与现有推理公司竞争吗？
+          </div>
+          <div class="text-slate-300 pl-6 leading-relaxed">
+            <span class="text-slate-500 font-semibold">答：</span>
+            不是。SGLang 和推理只是起点，RadixArk 致力于研发目前世界上尚不存在的“下一代 AI”，把打造最强 AI 的底层工具链平权赋能给整个行业。
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 space-y-2">
+          <div class="font-bold text-rose-300 flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-rose-500/20 text-xs">问</span>
+            如何看待由少数科技巨头垄断最强 AI 的趋势？
+          </div>
+          <div class="text-slate-300 pl-6 leading-relaxed">
+            <span class="text-slate-500 font-semibold">答：</span>
+            通过呼吁停下是违背人性的。唯一的解法是提供去中心化的工具链，让所有人都有能力创造专属的强大 AI，在良性演进中走向人类与 AI 的共存。
+          </div>
+        </div>
+
+        <!-- Q4 (新增扩充) -->
+        <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 space-y-2">
+          <div class="font-bold text-rose-300 flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-rose-500/20 text-xs">问</span>
+            在融资过程中经历了哪些曲折，对投资人有什么新认知？
+          </div>
+          <div class="text-slate-300 pl-6 leading-relaxed">
+            <span class="text-slate-500 font-semibold">答：</span>
+            刚开始融资时连 Term Sheet 和 Pitch Deck 是什么都不知道。虽然现实总有落差与复杂性，但只要有耐心筛去杂音，教科书里描绘的最纯粹的导师、并肩的投资人与同行者最终都会一一显露。
+          </div>
+        </div>
+
+        <!-- Q5 (新增扩充) -->
+        <div class="p-5 rounded-2xl bg-slate-900/40 border border-slate-800 space-y-2">
+          <div class="font-bold text-rose-300 flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-rose-500/20 text-xs">问</span>
+            在科技界（包括学术与创业）如何看待性别不平等与平权？
+          </div>
+          <div class="text-slate-300 pl-6 leading-relaxed">
+            <span class="text-slate-500 font-semibold">答：</span>
+            这并不是一句口号，而是无处不在的微妙日常。唯一的解法不是靠争论，而是让女性真正拥有权力、站上头部。当自己成为获益者时，有力量把这个事情往外推动一点点，做扎实的 1% 改变。
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 结语横幅 -->
+    <section class="p-8 rounded-3xl bg-slate-900/90 border border-slate-800 text-center space-y-2">
+      <h3 class="text-lg font-bold text-white font-serif-sc">扎实前行，哪怕只改变 1%</h3>
+      <p class="text-xs sm:text-sm text-slate-400 max-w-xl mx-auto leading-relaxed">
+        “世界虽是草台班子，但只要每一步的移动是扎实的，就值得用一生去推动那个属于我们坚信的未来。”
+      </p>
+    </section>
+
+  </main>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
